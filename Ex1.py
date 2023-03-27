@@ -14,5 +14,5 @@ numbers2 = {rnd(1, 100) for j in range(element2)}
 print(*numbers1)
 print(*numbers2)
 
-intersep = numbers1.intersection(numbers2)
-print(f"Одинаковые значения двух множеств {intersep}")
+intersec = numbers1.intersection(numbers2)
+print(f"Одинаковые значения двух множеств {intersec}")
